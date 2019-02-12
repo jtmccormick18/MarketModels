@@ -21,8 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "nodemon": "^1.11.0",
-    "webpack-cli": "^3.2.3"
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
     "@material-ui/core": "^3.9.1",
@@ -36,7 +35,6 @@
     "mssql": "^4.3.0",
     "mysql2": "^1.6.4",
     "path": "^0.12.7",
-    "sequelize": "^4.42.0",
-    "webpack": "^4.29.3"
+    "sequelize": "^4.42.0"
   }
 }
