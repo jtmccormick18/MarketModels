@@ -1,0 +1,23 @@
+{
+    "development": {
+      "username": "GwinnettMM",
+      "password": "GMASS@user123",
+      "database": "gwinnett_ay2017",
+      "host": "160.153.33.226",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "GwinnettMM",
+      "password": "GMASS@user123",
+      "database": "gwinnett_ay2017",
+      "host": "160.153.33.226",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "GwinnettMM",
+      "password": "GMASS@user123",
+      "database": "gwinnett_ay2017",
+      "host": "160.153.33.226",
+      "dialect": "mysql"
+    }
+  }
