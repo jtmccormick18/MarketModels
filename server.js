@@ -16,13 +16,13 @@ const db = require("./models");
 require('./routes/api-routes')(app);
 
 // Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
+
   app.use(express.static(path.join(__dirname, "client/build")));
   
   app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
   });
-}
+
 
 
 db.sequelize.sync().then(function () {
