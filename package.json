@@ -5,7 +5,7 @@
   "main": "server.js",
   "homepage": "https://shielded-sea-62140.herokuapp.com/",
   "engines":{
-    "node":"5.6.0"
+    "node":"^5.6.0"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
